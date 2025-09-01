@@ -1,6 +1,340 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-310388427906986979
+--- !u!114 &-9203275310150067080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f7feaf8a9820544a8fbb1a8ee028187, type: 3}
+  m_Name: BossSkill3
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: d975c5e41a2b53943adae391312f3c97
+  position: {x: 301, y: 607.00006}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+  description: 
+  drawGizmos: 0
+  skillDuration: 2
+  skillName: "\uC2A4\uD0AC 3"
+  isCurrentlyCasting: 0
+  onSkillStart:
+    m_PersistentCalls:
+      m_Calls: []
+  onSkillEnd:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &-7768032206863287604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b62960a0a44541ae7af454b058600, type: 3}
+  m_Name: BossSkill1
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 87855d8e1aa49e342a7b65bf929f3519
+  position: {x: 0.0001373291, y: 607}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+  description: 
+  drawGizmos: 0
+  skillDuration: 2
+  skillName: "\uC2A4\uD0AC 1"
+  isCurrentlyCasting: 0
+  onSkillStart:
+    m_PersistentCalls:
+      m_Calls: []
+  onSkillEnd:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &-6683454191776304919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ec8513fd76e133489a921bd277fc0e0, type: 3}
+  m_Name: BossSkill4
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 2fcef6567dfe98943a5e8b25ab8111d8
+  position: {x: 451, y: 607}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+  description: 
+  drawGizmos: 0
+  skillDuration: 2
+  skillName: "\uC2A4\uD0AC 4"
+  isCurrentlyCasting: 0
+  onSkillStart:
+    m_PersistentCalls:
+      m_Calls: []
+  onSkillEnd:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &-5053528259260037945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 028e6bf73c1f62240a35ffdeb8333f9c, type: 3}
+  m_Name: BossHPCheck
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 4b27a4dce8feb4443a575781cf0e35c8
+  position: {x: -449, y: 451}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+  description: 
+  drawGizmos: 0
+  child: {fileID: 3620811907972426371}
+  maxHP: 1000
+  hpThreshold: 0.3
+  checkInterval: 0.5
+--- !u!114 &-1678278787520959058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddf7f80c2e2961442948254b55b89f23, type: 3}
+  m_Name: BossSkill5
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 0bbefc7dfdd6cf84ab616a147db18ada
+  position: {x: 600.99994, y: 607}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+  description: 
+  drawGizmos: 0
+  skillDuration: 2
+  skillName: "\uC2A4\uD0AC 5"
+  isCurrentlyCasting: 0
+  onSkillStart:
+    m_PersistentCalls:
+      m_Calls: []
+  onSkillEnd:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &-1470380142911711626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bd1a26a8bd68634f9277bf12439fa47, type: 3}
+  m_Name: BossSkill2
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 83f2bbc4a48473f45ac5e566969ac3f2
+  position: {x: 150.00005, y: 607}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+  description: 
+  drawGizmos: 0
+  skillDuration: 2
+  skillName: "\uC2A4\uD0AC 2"
+  isCurrentlyCasting: 0
+  onSkillStart:
+    m_PersistentCalls:
+      m_Calls: []
+  onSkillEnd:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &-463132208992751868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7bf77e26564daa41815cba042a730aa, type: 3}
+  m_Name: InterruptSelector
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 7f2fc09fed923384cb4e14433868c2a2
+  position: {x: -298.9999, y: 297.00003}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+  description: 
+  drawGizmos: 0
+  children:
+  - {fileID: 3467717899395640991}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d285eb63c2cdd74180de7cfceaa96ad, type: 3}
+  m_Name: MonsterBT
+  m_EditorClassIdentifier: 
+  rootNode: {fileID: 6028524973743899031}
+  treeState: 0
+  nodes:
+  - {fileID: 6028524973743899031}
+  - {fileID: 6326242714989216099}
+  - {fileID: -5053528259260037945}
+  - {fileID: 3467717899395640991}
+  - {fileID: 8333828995330912656}
+  - {fileID: -463132208992751868}
+  - {fileID: 7099844630715820800}
+  - {fileID: 3508511866440738357}
+  - {fileID: -7768032206863287604}
+  - {fileID: -1470380142911711626}
+  - {fileID: -9203275310150067080}
+  - {fileID: -6683454191776304919}
+  - {fileID: -1678278787520959058}
+  - {fileID: 3620811907972426371}
+  - {fileID: 5098863254177908355}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+--- !u!114 &3467717899395640991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dcf9fdc26634ae40960c1d46f14a27a, type: 3}
+  m_Name: BattleTimerCheck
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 3bb9af21349461a42b6a1180046189fc
+  position: {x: -299, y: 451}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+  description: 
+  drawGizmos: 0
+  child: {fileID: 5098863254177908355}
+  battleTimeLimit: 300
+  checkInterval: 1
+  interruptOnTimeUp: 1
+  showTimeInConsole: 1
+--- !u!114 &3508511866440738357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee64948bda9e2fe4fb5ad88265395141, type: 3}
+  m_Name: RandomSelector
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: c54e048386d2d084793b7fd78db9e5d3
+  position: {x: 300.99997, y: 451}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+  description: 
+  drawGizmos: 0
+  children:
+  - {fileID: -7768032206863287604}
+  - {fileID: -1470380142911711626}
+  - {fileID: -9203275310150067080}
+  - {fileID: -6683454191776304919}
+  - {fileID: -1678278787520959058}
+--- !u!114 &3620811907972426371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3471972e3246f1346891b77d73e3232f, type: 3}
+  m_Name: BossSkillHP
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 102401e1bbd53d94dbb1fdedc9ba5f99
+  position: {x: -448.9999, y: 607}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+  description: 
+  drawGizmos: 0
+  skillDuration: 2
+  skillName: "HP \uC2A4\uD0AC"
+  isUsed: 0
+  isCurrentlyCasting: 0
+  onSkillStart:
+    m_PersistentCalls:
+      m_Calls: []
+  onSkillEnd:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &5098863254177908355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7129c7bba390c754f8c2ae2de29f3a69, type: 3}
+  m_Name: BossSkillTime
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: ad2dab020ccf52b4eb81c6f8ef952930
+  position: {x: -298.99997, y: 606.99994}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+  description: 
+  drawGizmos: 0
+  skillDuration: 2
+  skillName: "\uC2DC\uAC04 \uC2A4\uD0AC"
+  isUsed: 0
+  isCurrentlyCasting: 0
+  onSkillStart:
+    m_PersistentCalls:
+      m_Calls: []
+  onSkillEnd:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &6028524973743899031
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -14,14 +348,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   state: 0
   started: 0
-  guid: 0ee1fea4fb6e5dd4e859f46fe5e26a5a
+  guid: 048efa8f2f78b384799d35dba5462e7a
   position: {x: 0, y: 0}
   blackboard:
     moveToPosition: {x: 0, y: 0, z: 0}
   description: 
   drawGizmos: 0
-  child: {fileID: 0}
---- !u!114 &11400000
+  child: {fileID: 6326242714989216099}
+--- !u!114 &6326242714989216099
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -30,12 +364,63 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d285eb63c2cdd74180de7cfceaa96ad, type: 3}
-  m_Name: MonsterBT
+  m_Script: {fileID: 11500000, guid: 460be9e34c566ea45b9e282b1adcb028, type: 3}
+  m_Name: Selector
   m_EditorClassIdentifier: 
-  rootNode: {fileID: -310388427906986979}
-  treeState: 0
-  nodes:
-  - {fileID: -310388427906986979}
+  state: 0
+  started: 0
+  guid: 133027f115781854a82e5c0ed21ff0b5
+  position: {x: 0, y: 152}
   blackboard:
     moveToPosition: {x: 0, y: 0, z: 0}
+  description: 
+  drawGizmos: 0
+  children:
+  - {fileID: 8333828995330912656}
+  - {fileID: -463132208992751868}
+  - {fileID: 7099844630715820800}
+--- !u!114 &7099844630715820800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb5496e8cd973748a10b3e3ef436ebd, type: 3}
+  m_Name: Repeat
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 617ac26450e5ffe488b24431a3252aff
+  position: {x: 300.81747, y: 296.99997}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+  description: 
+  drawGizmos: 0
+  child: {fileID: 3508511866440738357}
+  restartOnSuccess: 1
+  restartOnFailure: 0
+--- !u!114 &8333828995330912656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7bf77e26564daa41815cba042a730aa, type: 3}
+  m_Name: InterruptSelector
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 28841cbc10bf89b4b90f55742c40c58d
+  position: {x: -448.76, y: 297}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+  description: 
+  drawGizmos: 0
+  children:
+  - {fileID: -5053528259260037945}
